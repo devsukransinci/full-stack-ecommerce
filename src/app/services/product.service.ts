@@ -13,6 +13,8 @@ export class ProductService {
 
   getProductList(theCategoryId:number):Observable<Product []>{
 
+
+    
    
     // need to build URL based on category id 
     const searchUrl = `${this.baseUrl}/search/findByCategoryId?id=${theCategoryId}`;
