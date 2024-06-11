@@ -10,6 +10,7 @@ constructor(
     public unitsInStock:number,
     public dateCreated:Date,
     public lastUpdated:Date,
+   
     
 
 
